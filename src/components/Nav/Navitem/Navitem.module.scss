@@ -1,0 +1,13 @@
+.Navitem {
+
+}
+
+.Navitem a {
+  border-bottom: 3px solid transparent;
+}
+.Navitem a:hover {
+  background-color: rgba(0, 0, 0, .1);
+}
+.Navitem a.active {
+  border-bottom-color: rgb(255, 0, 0);
+}
