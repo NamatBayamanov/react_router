@@ -2,22 +2,10 @@ import Header from "../../components/Header/Header";
 import classes from "./Products.module.scss";
 import productsImage from "../../assets/products.jpg";
 import ProductList from "../../components/ProductList/ProductList";
-import vueImage from "../../assets/vue.jpg";
+import { getProducts } from "../../data/Products";
 
 function Products() {
 
-  const products = [
-    {
-      title: "It is ProductItem",
-      price: "10",
-      image: vueImage,
-    },
-    {
-      title: "It is ProductItem2",
-      price: "16",
-      image: vueImage,
-    },
-  ];
   
   return ( 
     <>
@@ -29,7 +17,7 @@ function Products() {
               While building a little bookkeeping app we'll cover:
           </Header>
 
-        <ProductList products={products}/>
+        <ProductList products={getProducts()}/>
         </div>
         
       </div>

@@ -5,12 +5,8 @@ import classes from "./ProductList.module.scss";
 function ProductList({products}) {
 
 
-  
-
-  // const product = {products};
-
-  const productItems = Object.keys(products).map(id => (
-    <ProductItem key={id} product={products[id]}/>
+  const productItems = (products).map(product => (
+    <ProductItem key={product.productId} product={product}/>
   ));
 
 

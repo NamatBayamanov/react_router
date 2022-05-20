@@ -5,6 +5,8 @@ import classes from "./ProductItem.module.scss";
 
 function ProductItem({ product }) {
 
+  // console.log(product);
+
 
   return (
     <>
@@ -38,7 +40,7 @@ function ProductItem({ product }) {
             <img src={product.image} alt="#"/> 
           </div>
           <section>
-            <Link to="/">
+            <Link to={product.productId}>
               {product.title}
             </Link>          
             <div className={classes.price}>
