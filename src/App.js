@@ -25,7 +25,7 @@ function App() {
               
               <Route path="*" element={<NotFound/>}/>
 
-              {/* <Route path="/faq" element={<FAQ/>}/> */}
+              <Route path="/faq" element={<FAQ/>}/>
             </Routes>
         </Layout>
         
