@@ -4,6 +4,7 @@ import productsImage from "../../assets/products.jpg";
 import ProductList from "../../components/ProductList/ProductList";
 import { getProducts } from "../../data/Products";
 
+
 function Products() {
 
   
@@ -18,6 +19,7 @@ function Products() {
           </Header>
 
         <ProductList products={getProducts()}/>
+      
         </div>
         
       </div>

@@ -10,7 +10,7 @@ function Layout({ children }) {
       <main className={classes.Layout} id="Layout">
         <Nav/>
         <Header/>
-        <div className="container">
+        <div className="">
         
           <div className={classes.content} id="Layout__With__children" >
             {children}

@@ -40,7 +40,7 @@ function ProductItem({ product }) {
             <img src={product.image} alt="#"/> 
           </div>
           <section>
-            <Link to={product.productId}>
+            <Link to={"/products/" + product.productId}>
               {product.title}
             </Link>          
             <div className={classes.price}>
