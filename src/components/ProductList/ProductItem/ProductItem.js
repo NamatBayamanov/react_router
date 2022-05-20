@@ -21,38 +21,19 @@ function ProductItem({ product }) {
 
               <div className={classes.content}>
                 <h2 className={classes.title}>
-                  Mountain View
+                  {product.title}
                 </h2>
                 <p className={classes.copy}>
-                  Seriously, straight up, just blast off into outer space today
+                  {product.short_description}
                 </p>
                 <button className={classes.btn}>
-                  Book Now
+                  <Link to={"/products/" + product.productId}>
+                    {product.title}
+                  </Link>
                 </button>
               </div>
             </div>
           </main>
-
-
-
-
-          <div className={classes.img__container}>
-            <img src={product.image} alt="#"/> 
-          </div>
-          <section>
-            <Link to={"/products/" + product.productId}>
-              {product.title}
-            </Link>          
-            <div className={classes.price}>
-              ${product.price}
-            </div>
-          </section> 
-
-
-
-
-
-
         </div>
       </div>
 

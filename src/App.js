@@ -19,7 +19,7 @@ function App() {
               <Route path="/" element={<Home/>}/>
               <Route path="/contacts" element={<Contacts/>}/>
               <Route path="/products" element={<Products/>}/>
-              <Route path={"/products/" + "*"} element={<NotProduct/>}/>
+              {/* <Route path={"/products/" + "*"} element={<NotProduct/>}/> */}
 
               <Route path="/products/:productId" element={<Product/>}/>
               
