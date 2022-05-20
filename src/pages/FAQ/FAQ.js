@@ -8,7 +8,7 @@ function FAQ() {
       
       <Header title="FAQ">
           
-            It is faq
+            It is FAQ
           
       </Header>
     </div>
