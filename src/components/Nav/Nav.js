@@ -1,6 +1,7 @@
 import Logo from "../ui/Logo/Logo";
 import classes from "./Nav.module.scss";
 import Navitem from "./Navitem/Navitem";
+import NavToggle from "./NavToggle/NavToggle";
 
 
 function Nav() {
@@ -29,7 +30,7 @@ function Nav() {
                 </Navitem>
               </ul>
 
-
+              <NavToggle/>
             </div>
           </div>
           

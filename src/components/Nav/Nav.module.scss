@@ -30,3 +30,8 @@
 //   color: red;
 // }
 
+@media(max-width: 580px) {
+  .Nav ul {
+    display: none;
+  }
+}

@@ -1,0 +1,14 @@
+.NavToggle {
+
+}
+
+.NavToggle .bs__content {
+  font-size: 41px;
+  display: none;
+}
+
+@media(max-width: 580px) {
+  .NavToggle .bs__content {
+    display: block;
+  }
+}

@@ -14,8 +14,7 @@ function ProductList({products}) {
     <>
       <div className={classes.ProductList}>
         {productItems}
-        {productItems}
-        {productItems}
+        
       </div>
     </>
   );
