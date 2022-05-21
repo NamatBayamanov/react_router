@@ -3,17 +3,17 @@ import classes from "./Navitem.module.scss";
 
 function Navitem(props) {
 
-  // const classNames = [];
+  const classNames = [classes.Navitem];
 
-  // if(actives) {
-  //   classNames.push("active");
-  // }
+  if(props.active) {
+    classNames.push("active");
+  }
   
-  // className={classNames.join(" ")}
+  
 
   return ( 
     <>
-      <li className={classes.Navitem}>
+      <li className={classNames.join(" ")}>
         <NavLink to={props.url} active={props.active}>
           {props.children}
         </NavLink>

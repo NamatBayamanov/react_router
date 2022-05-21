@@ -1,0 +1,66 @@
+.Drawer {
+  // position: relative;
+  & h2 {
+    font-size: 28px;
+    padding: 1.5rem;
+  }
+}
+
+
+.Drawer .arraw {
+  display: none;
+}
+
+.Drawer .background {
+  background-color: chartreuse;
+  display: none;
+}
+.Drawer .flex__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Drawer ul {
+  flex-direction: column;
+  width: 255px;
+  align-items: center;
+  & li a {
+    font-size: 22px;
+  }
+}
+
+.Drawer .open.background {
+  top: 0;
+}
+// .Drawer .open {
+//   & div div div {
+//     top: 1rem;
+//     // z-index: 1;
+//   }
+// }
+.Drawer .open.arraw {
+  display: block;
+  }
+
+@media (max-width: 580px) {
+  .Drawer .background {
+    display: block;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: -3000px;
+    height: 1000px;
+  }
+  .Drawer ul {
+    display: flex;
+  }
+  // .Drawer div div div {
+  //   position: fixed;
+  //   right: 2rem;
+  //   top: 0px;
+  //   // z-index: 3; 
+  // }
+
+}
+

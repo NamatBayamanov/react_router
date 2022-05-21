@@ -7,7 +7,8 @@
 }
 .Navitem a:hover {
   background-color: rgba(0, 0, 0, .1);
+  border-bottom: 3px solid black;
 }
-.Navitem a.active {
+>.Navitem a.active {
   border-bottom-color: rgb(255, 0, 0);
 }
